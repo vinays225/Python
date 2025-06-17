@@ -1,0 +1,43 @@
+A Regular Expression (regex) is a sequence of characters that defines a search pattern. It is used to match, find, or validate strings in Python using the re module.
+
+🔧 Python re Module Functions
+Function	Description
+re.match()	Matches pattern at the start
+re.search()	Searches pattern anywhere
+re.findall()	Returns all matching substrings
+re.fullmatch()	Matches pattern entirely
+re.sub()	Replaces pattern with something else
+re.split()	Splits string by pattern
+
+
+🧩 Basic Regex Metacharacters
+Symbol	Meaning	Example Pattern	Matches
+.	Any character except newline	a.b	aab, acb, etc.
+^	Start of string	^Hello	Must start with "Hello"
+$	End of string	end$	Must end with "end"
+[]	Match one character in set	[a-z], [AEIOU]	Any vowel or lowercase
+[^ ]	Not in set	[^0-9]	Any non-digit
+*	0 or more repetitions	a*	"", "a", "aa", etc.
++	1 or more repetitions	a+	"a", "aa", etc.
+?	0 or 1 repetition	colou?r	"color", "colour"
+{n}	Exactly n times	[0-9]{4}	Four digits
+{n,m}	Between n and m times	a{2,4}	"aa", "aaa", "aaaa"
+`	`	OR	`cat
+()	Grouping	(ab)+	"ab", "abab", etc.
+\	Escape special character	\.	Matches literal .
+
+
+
+
+✅ Common Regex Patterns with Real Use Cases
+Task	Pattern	Use Case
+Email validation	^[\w.-]+@[\w.-]+\.\w{2,3}$	Validate login forms
+Indian mobile number	^[6-9]\d{9}$	Validate signup forms
+PAN card number	^[A-Z]{5}[0-9]{4}[A-Z]$	KYC/Finance forms
+Extract hashtags	#\w+	Social media text
+Valid date (DD-MM-YYYY)	\d{2}-\d{2}-\d{4}	Logs or forms
+Extract file extensions	\.\w+$	Check image/video types
+Only alphabets	^[A-Za-z]+$	Name fields
+Only digits	^\d+$	Age, quantity, etc.
+Strong password	^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[\W_]).{8,}$	Password fields
+

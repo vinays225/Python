@@ -1,0 +1,27 @@
+Inheritance is a fundamental concept in Object-Oriented Programming (OOP). 
+It allows a class (called a child or derived class) to inherit the properties and behaviors (methods and attributes) from another class (called a parent or base class).
+
+✅ Why Use Inheritance?
+1.Code reusability: Avoid rewriting code; reuse it in child classes.
+2.Modularity: Organize related code together.
+3.Extensibility: Easily extend base functionality.
+
+✅ Types of Inheritance in Python
+1. Single Inheritance
+One child class inherits from one parent class.
+
+2. Multiple Inheritance
+One child class inherits from multiple parent classes.
+
+3. Multilevel Inheritance
+A child inherits from a parent, and another child inherits from the child.
+
+4. Hierarchical Inheritance
+Multiple child classes inherit from a single parent class.
+
+5. Hybrid Inheritance
+Combination of multiple types of inheritance. Python handles this using MRO.
+🧠 super() Function
+Used to call methods from the parent class.
+
+
