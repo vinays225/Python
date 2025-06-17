@@ -1,0 +1,25 @@
+olymorphism means "many forms".
+
+In Object-Oriented Programming (OOP), Polymorphism allows different classes to be treated through the same interface while behaving differently.
+
+✅ Why Use Polymorphism?
+Benefit	Explanation
+Code Flexibility	Same interface works with different objects
+Reusability	Reuse methods across unrelated classes
+Maintainability	Easier to manage large codebases with common patterns
+Interchangeability	Swap objects of different types with minimal changes
+
+
+📦 Real-Life Example:
+You can use the + operator with:
+Numbers → adds them (2 + 3 = 5)
+Strings → concatenates them ("Hi" + " Vinay" = "Hi Vinay")
+Lists → merges them ([1] + [2] = [1, 2])
+This is polymorphism in action.
+
+✅ Types of Polymorphism in Python
+Type	Description
+Duck Typing	Don’t check type; just check behavior
+Function Overloading*	Simulated via default arguments
+Method Overriding	Child class redefines parent method
+Operator Overloading	+, -, ==, etc. on user objects

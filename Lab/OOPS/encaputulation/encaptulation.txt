@@ -1,0 +1,30 @@
+What is Encapsulation?
+Encapsulation is an object-oriented programming (OOP) concept where:
+
+Data (attributes) and methods (functions) are bundled together in a class.
+
+Direct access to some of the object’s data is restricted to protect it from unauthorized access or modification.
+
+Think of encapsulation as data hiding + data protection.
+
+✅ Why Encapsulation?
+Benefit	Explanation
+Security	Prevents outside code from directly accessing sensitive data
+Control	Gives you control over how variables are set or retrieved
+Maintainability	Easier to modify code without affecting external usage
+Abstraction	Internal implementation details are hidden from the user
+
+🔒 Access Modifiers in Python
+Unlike Java or C++, Python doesn't enforce strict access modifiers but uses conventions:
+
+Modifier	Syntax	Meaning
+Public	self.name	Accessible everywhere
+Protected	self._name	Internal use only (convention)
+Private	self.__name	Name mangled, not directly accessible
+
+| Concept              | Purpose                                          |
+| -------------------- | ------------------------------------------------ |
+| `public`             | Accessible from anywhere                         |
+| `protected` (`_var`) | Hint: Use inside class or subclass               |
+| `private` (`__var`)  | Name mangled; not meant for direct access        |
+| `get/set methods`    | Used to access/update private variables securely |

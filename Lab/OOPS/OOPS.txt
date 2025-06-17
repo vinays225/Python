@@ -1,0 +1,31 @@
+🧱 What is OOP in Python?
+OOP (Object-Oriented Programming) is a paradigm where code is organized into objects that combine data (attributes) and behavior (methods).
+Python supports OOP fully, allowing you to build modular, scalable, and maintainable software.
+
+🔑 4 Pillars of OOP
+Concept	Description
+1. Encapsulation	Hiding internal data using access modifiers
+2. Abstraction	Showing only essential features, hiding complexity
+3. Inheritance	Child class inherits from parent class
+4. Polymorphism	Same method behaves differently in different classes
+
+
+
+🔸 What is __init__ in Python?
+__init__ is a special method (also called a constructor) in Python classes.
+It is automatically called when you create an object of the class.
+✅ Purpose:
+Initialize the object’s attributes (variables).
+Set up the object when it is created.
+
+🔸 What is self in Python?
+self refers to the current object (instance) of the class.
+✅ Purpose:
+Used to access variables and methods of the current object.
+Must be the first parameter of every instance method (including __init__).
+You don’t pass self manually — Python does it automatically when calling the method on an object.
+
+🔁 Summary
+Keyword	Meaning
+__init__	Special method that runs when object is created
+self	Refers to the current object instance

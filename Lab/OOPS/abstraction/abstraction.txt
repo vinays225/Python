@@ -1,0 +1,11 @@
+🧠 What is Abstraction?
+Abstraction means hiding complex implementation details and showing only the essential features to the user.
+
+Think of abstraction as using a TV remote — you press a button to change the channel, but you don’t need to know how the remote works internally.
+
+✅ Why Abstraction?
+To reduce complexity.
+To focus on what an object does, not how it does it.
+To enforce standard structure using abstract classes.
+🔐 Abstraction in Python (Using abc Module)
+Python uses the abc (Abstract Base Class) module to create abstract classes and methods.
